@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class guia2_act1 extends Main
+public class guia3_act1 extends Main
 {
     // Variables nativas miembro
     private int a;
@@ -9,7 +9,7 @@ public class guia2_act1 extends Main
     /**
      * Constructor para la clase Dupla
      */
-    public guia2_act1()
+    public guia3_act1()
     {
         this.a = 0;
         this.b = 0;
@@ -44,8 +44,8 @@ class Main {
     public static void main(String[] args) {
         int x = 0;
         int y = 0;
-        guia2_act1 primerPar;
-        primerPar = new guia2_act1();
+        guia3_act1 primerPar;
+        primerPar = new guia3_act1();
         
         primerPar.guarda(12,32);
         x = primerPar.leeX(x);
